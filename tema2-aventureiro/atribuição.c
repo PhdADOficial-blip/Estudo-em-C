@@ -15,7 +15,7 @@ int main() {
 
     resultado += 20;
     printf("resultado: %d \n", resultado);
-
+    printf("oi");
   
     return 0;
 }

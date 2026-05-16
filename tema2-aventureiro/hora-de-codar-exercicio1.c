@@ -9,7 +9,7 @@
             printf("---------------------\n");
             printf("---------------------\n");
             printf("----------media de alunos modelo 1-----------\n");
-            1
+            
             printf("nota1: \n");
             scanf("%d", &nota1);
 

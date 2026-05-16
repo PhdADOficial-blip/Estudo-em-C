@@ -49,7 +49,7 @@ int main() {
     printf("-----------------------------------------\n");
     printf("-----------------------------------------\n");
     printf("-----------------------------------------\n");
-    //converção explicita usando cashtin
+    //converção explicita usando casting
     int a2 = 10;
     int b2 = 3;
     float quociente2 = (float) a2 / b2; // 'a' é explicitamente convertido para float

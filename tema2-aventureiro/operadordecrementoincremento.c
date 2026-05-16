@@ -50,22 +50,22 @@ int main() {
      b= 10;
      //decremento 
      a--;  //soma diminui -1 = 9
-     printf("%d , %d",a, b);
+     printf("%d , %d \n ", a , b);
      //incremetno 
      b++;  //soma soma +1 = 11
-     printf("%d , %d",a, b);
+     printf("%d , %d \n", a, b);
      //Pré-incremento (++a)
      a = ++b; // a recebe o valor de b +1 = 11 (a e b vale = 11)
-     printf("%d , %d",a, b);
+     printf("%d , %d \n",a, b);
      //Pós-incremento (a++)
      b= a++;  // (b=a 10) e (a++ = 11)
-     printf("%d , %d",a, b); 
+     printf("%d , %d \n",a, b); 
      //Pré-decremento
      a = --b;  // (a=b-1 9) e (b-- = 9)
-     printf("%d , %d",a, b);  
+     printf("%d , %d \n",a, b);  
      //Pós-decremento
      a = b--;  // (a=b 10) e (b = 9)
-     printf("%d , %d",a, b) ;
+     printf("%d , %d \n",a, b) ;
      
     return 0;
 

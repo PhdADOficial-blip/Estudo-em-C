@@ -91,6 +91,8 @@ int main() {
 
     printf("Numero de pontos turisticos: ");
     scanf("%d", &pontosTuristicos2);
+
+    
     
 
     /*1- calculo da densidade populacional: população / area = densidade (kmquadrado)
@@ -105,8 +107,8 @@ int main() {
  
     //Densidade Populacional: 8102.47 hab/km²
 
-    densidadepopu1 = populacao1 / populacao1;
-    densidadepopu2 = populacao2 / populacao2;
+    densidadepopu1 = populacao1 / area1;
+    densidadepopu2 = populacao2 / area2;
 
 
 
@@ -132,7 +134,7 @@ int main() {
     printf("Area: %.2f\n", area2);
     printf("PIB: %.2f\n", pib2);
     printf("Pontos Turisticos: %d\n", pontosTuristicos2);
-    printf("O PIB per Capita é: %.2f Reais" ,pibpercapita2);
+    printf("O PIB per Capita é: %.2f Reais\n" ,pibpercapita2);
     printf("A densidade populacional é: %.2f km.\n", densidadepopu2);
     return 0;
 }

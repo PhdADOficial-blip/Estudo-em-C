@@ -1,0 +1,3 @@
+operadores 
+
+aqui vamos aprender o operadores relacionais 

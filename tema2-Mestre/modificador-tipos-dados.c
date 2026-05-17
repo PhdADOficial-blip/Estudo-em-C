@@ -62,6 +62,59 @@
         printf("Tamanho do long long int %u bytes \n" ,sizeof(long long int));
         printf("Tamanho do double %u bytes \n" ,sizeof(double));
         printf("Tamanho do long double %u bytes \n" ,sizeof(long double));
+
+        printf("\n");
+        printf("\n");
+        printf("teste para entenimento");
+        unsigned long int numeroGrandePositivo = 4000000000;
+        unsigned int numeroPositivo = 4000000000;
+        long long int numeroGrande = 4000000000;
+        int numero = 4000000000;
+
+        printf("unsigned long int - Número positivo grande: %lu\n", numeroGrandePositivo);
+        printf("unsigned int - Número positivo: %u\n", numeroPositivo);
+        printf("long long int - Número grande: %lld\n", numeroGrande);
+        printf("int - Número: %d\n", numero);
+        printf("\n");
+        printf("\n");
+
+
+        printf("para economizar memoria vamos usar o short (numeros pequenos)\n");
+        
+        short int numeroPequeno = 32767; // Valor máximo de short int
+        printf("= 32767; // Valor máximo de short int\n");
+        printf("Número pequeno (short int): %d\n", numeroPequeno);
+        printf("\n");
+        printf("\n");
+
+        printf("32768; // Valor maior que o máximo de short int\n");
+        numeroPequeno = 32768; // Valor maior que o máximo de short int
+        printf("Número pequeno atualizado (short int): %d\n", numeroPequeno);
+
+        printf("\n*** Tamanho das variáveis ***\n");
+        printf("Short int: %lu B - int: %lu B - long int: %lu B\n", sizeof(short int), sizeof(int), sizeof(long long int));
+        printf("Float: %lu B - Double: %lu B - long double: %lu B\n", sizeof(float), sizeof(double), sizeof(long double));
+        printf("\n");
+        printf("\n");
+        /*quando vamos usar em que situação short variavel interia ocupa pouca memoria 
+            short: contador de laços repetição ate 33767 
+            
+            long: numeros inteiros muitos grande tomando cuidado de como ele trabalha naquela prlataformar 
+
+            unsig: char / inteiros = numeros positivos e negativos 
+            
+            unsigned: variaveis positivas  de numeros grandes ex: estoque de produtos, nomes nunca negativos 
+            
+            long int ou long long int: calculos grandes positivos e negativos
+
+            */   
+           /*boas praticas 
+           escolher tipos de dados apropriados 
+           verificar compabilidades 
+           use especificadores ll / u / l / lf
+           verificar o temanho do tipo de dados para o ambiente 
+           considere o ambiente de desenvolvimento 
+           */
         return 0;
 
 }

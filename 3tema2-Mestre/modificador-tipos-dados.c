@@ -6,7 +6,7 @@
         char:             -  128          
         Modificardor  - Intervalos de valores (  unsigned somente verdadeiros )          
         int: -2,147,483,647 a  2,147,483,647
-        unsigned int: 0  a a  127
+        igneduns int: 4,294,967,295  (dobra os valores porque não tem o sinal -)
         unsigned char:    -  0             a  255         (dobra os valores porque não tem o sinal -)
         */
         int signedNumber = 3000000000; // Este valor excede o limite de um int normal

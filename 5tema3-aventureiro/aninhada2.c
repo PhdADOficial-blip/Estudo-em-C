@@ -23,8 +23,9 @@ if ( idade >= 18 && idade < 65){
       }else{
         printf("VocÊ não atende oi criterio dependentes \n");
       }  
-    }else {
+    } else {
     printf("Você não antende o criterio renda \n");
+    }
 } else {
   printf("Você não antende a condição por idade \n");
 }

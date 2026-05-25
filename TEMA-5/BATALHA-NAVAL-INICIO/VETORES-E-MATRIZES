@@ -1,0 +1,35 @@
+Itens iniciais
+Objetivos
+
+
+Aplicar o conceito de vetores e matrizes em linguagem C para representar um tabuleiro de Batalha Naval simplificado.
+ 
+Aplicar estruturas de repetição aninhadas (loops) e matrizes em linguagem C para construir e exibir um tabuleiro de Batalha Naval.
+ 
+Aplicar condicionais dentro de loops aninhados em linguagem C para simular áreas de efeito de habilidades especiais em um tabuleiro de Batalha Naval.
+
+Introdução
+
+
+Imagine que você acaba de ser contratado pela Oceanic Games, uma empresa inovadora no desenvolvimento de jogos, para trabalhar em um novo projeto: uma versão moderna e turbinada do clássico Batalha Naval. Seu papel nessa equipe será crucial: você será o programador responsável por implementar parte da lógica do jogo, definindo o posicionamento dos navios no tabuleiro e a área de ação das novas habilidades especiais, utilizando para isso seus conhecimentos de vetores e matrizes na linguagem C. 
+
+ 
+
+No universo da programação de jogos – e em diversas outras áreas da Tecnologia da Informação – a capacidade de modelar e manipular dados usando essas estruturas é fundamental para criar experiências interativas e eficientes. Dominar vetores e matrizes é uma habilidade muito requisitada no mercado de trabalho, permitindo que você crie algoritmos otimizados para lidar com grandes volumes de informações, desenvolva interfaces gráficas complexas e construa a base para sistemas robustos e escaláveis.
+
+ 
+
+Este desafio prático irá guiá-lo por uma jornada que simula essa experiência real de desenvolvimento. Você construirá o jogo Batalha Naval passo a passo, em três módulos com níveis de dificuldade crescente. No primeiro módulo (Novato), você aprenderá a representar o tabuleiro e posicionar navios simples utilizando vetores. No segundo módulo (aventureiro), o desafio aumentará: você utilizará matrizes e loops para posicionar mais navios, incluindo em diagonal. Finalmente, no terceiro módulo (Mestre), você implementará as habilidades especiais do jogo, utilizando condicionais dentro de loops aninhados para definir áreas de efeito complexas como cones, cruzes e octaedros. 
+
+ 
+
+A cada módulo, você estará aplicando seus conhecimentos de forma prática, construindo um projeto completo e se preparando para os desafios reais da profissão. Prepare-se para mergulhar no código e transformar a teoria em um jogo funcional!
+
+Cenário
+
+
+A Oceanic Games decidiu desenvolver um jogo de Batalha Naval com uma mecânica inovadora: além das regras tradicionais, o jogo incluirá um sistema de habilidades especiais que afetam áreas específicas do tabuleiro. Essas habilidades, com diferentes formatos de alcance (cone, cruz e octaedro), adicionam uma camada estratégica ao jogo, permitindo que os jogadores ataquem múltiplas posições de uma só vez ou criem defesas em áreas específicas. Como desenvolvedor, seu desafio é implementar essas habilidades utilizando vetores e matrizes para representar o tabuleiro e calcular as áreas de efeito. Você precisará utilizar seus conhecimentos de lógica de programação, estruturas de dados e linguagem C para garantir que as habilidades funcionem corretamente e que o jogo ofereça uma experiência balanceada e divertida para os jogadores. 
+
+ 
+
+Lembre-se: a precisão na manipulação de vetores e matrizes será crucial para determinar o sucesso ou o fracasso de suas estratégias no jogo – e no desenvolvimento do projeto para a Oceanic Games!

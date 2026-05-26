@@ -33,6 +33,7 @@ void recursivo2(int numero1) //o int numero1 é o parametro da função recursiv
     }
 
 }
+/* -----------------------  INICIALIZAÇÃO DO CODIGO ----------------------- */
 
 
         int main() {
